@@ -1,0 +1,68 @@
+/**
+Author: Joseph Duren
+WDD130
+
+Soruces:
+[0] https://www.w3schools.com/css/css_text.asp
+[1] https://www.w3schools.com/css/css_text.asp
+[2] https://gemini.google.com/ - Helped ajust imange postion
+
+**/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    columns: 4;
+    column-gap: 160px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #e6e6e6;
+    color: #2E7D32 ;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+p {
+    font-family: "Open Sans", sans-serif;
+    border: 3px solid #D9A441;
+    justify-content: left;
+    overflow: hidden;
+    margin-top: 20px;
+    background-color: #e6e6e6;
+    text-wrap: wrap;
+}
+h1 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+.logo img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #0D3B66;
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+}
+img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+  height: 100px;
+}
+body {
+    background-color: #3A6EA5;
+}
+footer {
+    text-align: center;
+}
+button {
+    color: #3a6ea5
+}
